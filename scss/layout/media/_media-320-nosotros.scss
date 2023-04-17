@@ -1,0 +1,38 @@
+@media (max-width:426px) {
+    main {
+        .sectionNosotros {
+            .cardNosotros {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                .parrafoTextoNosotros {
+                    width: 100%;
+                    padding: 0 4rem 0 4rem;
+                    text-align: center;
+                }
+                .contenedorImgNosotros {
+                    width: 60%;
+                }
+            }
+        }
+        .sectionContacto {
+            height: 20rem;
+            div {
+                .titulosDosContacto {
+                    padding: 2rem 4rem;
+                }
+                .contenedorImgContactos {
+                    .imgContacto {
+                        .imgContactoDos {
+                            width: 6rem;
+                        }
+                        p {
+                            font-size: 1.2rem;
+                        }
+                    } 
+                } 
+            } 
+        }
+    }
+}

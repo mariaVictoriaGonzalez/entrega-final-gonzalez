@@ -1,0 +1,40 @@
+@media (max-width:768px) {
+
+    main {
+        .sectionNosotros {
+            .titulosUno {
+                font-size: 2rem;
+            }
+
+            .cardNosotros {
+                .parrafoTextoNosotros {
+                    padding: 2rem;
+                }
+
+                .contenedorImgNosotros {
+                    width: 35%;
+                    height: 35rem;
+                }
+
+            }
+        }
+
+        .sectionContacto {
+            height: 25rem;
+
+            div {
+                .contenedorImgContactos {
+                    .imgContacto {
+                        .imgContactoDos {
+                            width: 10rem;
+                        }
+
+                        p {
+                            font-size: 2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

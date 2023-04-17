@@ -1,0 +1,125 @@
+main {
+
+    .sectionNosotros {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .titulosUno {
+            width: 100%;
+            font-family: 'Kanit', sans-serif;
+            font-size: 3.5rem;
+            text-align: center;
+            margin-top: 2.5rem;
+            margin-bottom: 3.0rem;
+            letter-spacing: 0.5rem;
+            border-bottom: solid gray;
+        }
+
+        .cardNosotros {
+            display: flex;
+            justify-content: center;
+
+            .parrafoTextoNosotros {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                padding: 4rem;
+
+                .titulosDos {
+                    font-size: 2rem;
+                }
+
+                .parrafoNosotros {
+                    margin-right: none;
+                }
+
+            }
+
+            .contenedorImgNosotros {
+                width: 25%;
+                height: 50rem;
+                object-fit: fill;
+                display: flex;
+                justify-content: center;
+                margin-bottom: 2rem;
+
+                img {
+                    width: 100%;
+                    height: 80%;
+                    align-self: center;
+                }
+            }
+
+        }
+
+    }
+
+    .sectionContacto {
+        background-color: #595260;
+        width: 100%;
+        height: 28rem;
+        display: flex;
+        justify-content: flex-start;
+
+        div {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            .titulosDosContacto {
+                width: 100%;
+                color: $colorResalte;
+                font-size: 2rem;
+                padding-top: 3rem;
+                padding-left: 2rem;
+            }
+
+            .contenedorImgContactos {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+
+                .imgContacto {
+                    flex-direction: column;
+                    align-items: center;
+                    width: 50%;
+                    justify-self: center;
+
+                }
+                p {
+                    color: $colorResalte;
+                    font-size: 2.3rem;
+                    padding-top: 2rem;
+                }
+
+
+            }
+
+        }
+
+    }
+
+    .sectionMapa {
+        background-color: #2C2E43;
+        height: 68rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .titulosDosMapa {
+            color: #FFD523;
+            display: block;
+            font-size: 2rem;
+            padding-top: 3rem;
+            margin-left: 4rem;
+            margin-bottom: 2rem;
+        }
+
+        .mapa {
+            width: 100%;
+
+        }
+    }
+
+}

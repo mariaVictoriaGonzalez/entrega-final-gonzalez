@@ -1,0 +1,37 @@
+footer {
+    background-color: $colorResalte;
+    font-size: 1.5rem;
+    width: 100%;
+    height: 10rem;
+    display: grid;
+    grid-template-columns: 40% auto 20%;
+    grid-template-rows: 1fr;
+    align-items: center;
+    p{
+        padding-left: 1rem;
+    }
+    .pRedes {
+        width: 35rem;
+        height: 7rem;
+        display: flex;
+        align-items: center;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .redes {
+        width: 16rem;
+        height: 5rem;
+        display: flex;
+        align-items: center;
+        grid-column: 3/4;
+        grid-row: 1/2;
+        .imgRedes {
+            img {
+                margin: 1rem;
+                width: 3rem;    
+            }
+        }
+    }
+
+}

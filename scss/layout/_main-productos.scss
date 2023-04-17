@@ -1,0 +1,74 @@
+main {
+    section {
+        display: flex;
+        flex-direction: column;
+
+        .titulosUno {
+            width: 100%;
+            font-family: 'Kanit', sans-serif;
+            font-size: 3.5rem;
+            text-align: center;
+            margin-top: 2.5rem;
+            margin-bottom: 3.0rem;
+            letter-spacing: 0.5rem;
+            border-bottom: solid gray;
+        }
+    }
+
+    .titulosProducto {
+        width: 100%;
+        padding-right: 5rem;
+        padding-bottom: 3rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+
+        .titulosDos {
+            font-size: 2rem;
+        }
+
+        .carrito {
+            width: 5rem;
+            height: 5rem;
+        }
+
+    }
+
+    .sectionProductos {
+        width: 100%;
+        height: 110rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 50rem 50rem;
+        gap: 3rem;
+
+        .cardProductos {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            img {
+                width: 40rem;
+                height: 40rem;
+            }
+
+            .titulosTres {
+                padding-top: 1rem;
+                font-size: 2rem;
+                text-align: center
+            }
+
+            .botonCompra {
+                @include botonPrincipal;
+            }
+
+            .botonCompra:hover {
+                @include hoverGris;
+                color: white;
+                border-color: white;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,17 @@
+@media (max-width:426px) {
+    main {
+        .sectionProductos {
+            width: 100%;
+            height: 253rem;
+            display: flex;
+            flex-direction: column;
+            .cardProductos {
+                padding-bottom: 2rem;
+                img {
+                    width: 30rem;
+                }
+            }
+
+        }
+    }
+}

@@ -1,0 +1,62 @@
+@media (max-width:426px) {
+
+    .nav-wraper {
+        background-color: $colorNav;
+        width: 100%;
+        height: 18rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        z-index: 0;
+        position: relative;
+
+        nav {
+            .contenedorLogo {
+                object-fit: fill;
+
+                img {
+                    width: 80%;
+                    padding: 0rem;
+                }
+            }
+
+            label {
+                display: inline-flex;
+                color: $colorResalte;
+                cursor: pointer;
+                .imgMenu {
+                    width: 3rem;
+                }
+            }
+
+            .menu {
+                width: 100%;
+                height: 0;
+                overflow: hidden;
+                z-index: 0;
+
+                ul {
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 0.5rem 0;
+                    z-index: 0;
+
+
+                    .botonHome:hover {
+                        background-color: $colorResalte;
+                        color: black;
+                    }
+                }
+            }
+            #toggle:checked~.menu {
+                height: 100%;
+            }
+            #toggle:checked~.nav {
+                height: 50rem;
+                
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+@media (max-width:768px) {
+
+    .nav-wraper {
+        width: 100%;
+        height: 20rem;
+        display: flex;
+        justify-content: space-around;
+
+        nav {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            div {
+                width: 30%;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+
+        }
+    }
+
+}

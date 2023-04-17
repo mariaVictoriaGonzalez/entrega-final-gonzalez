@@ -1,0 +1,23 @@
+@media (max-width:768px) {
+    main {
+        .sectionProductos {
+            width: 100%;
+            height: 140rem;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            gap: 1rem;
+            .cardProductos {
+                img {
+                    width: 30rem;
+                    height: 30rem;
+                }
+                .titulosTres {
+                    font-size: 1.6rem;
+                }
+    
+            }
+
+        }
+    }
+}

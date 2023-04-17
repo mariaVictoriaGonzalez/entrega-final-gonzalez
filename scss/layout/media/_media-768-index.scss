@@ -1,0 +1,84 @@
+@media (max-width:768px) {
+
+    main {
+
+        .sectionPresentacion {
+            width: 100%;
+            height: 40rem;
+            display: grid;
+            grid-template-columns: auto;
+            grid-template-rows: repeat(2, auto);
+
+            .fotoPresentacion {
+                width: 100%;
+                height: 37rem;
+                grid-column: 1/4;
+                grid-row: 1/4;
+            }
+
+            .text-shadow-drop-center {
+                font-family: 'Russo One', sans-serif;
+                font-size: 5rem;
+                color: whitesmoke;
+                padding-bottom: 1rem;
+                text-shadow: 0.5rem 0.5rem 0.3rem rgb(39, 39, 39);
+                text-transform: capitalize;
+                padding-left: 3rem;
+                grid-column: 1/4;
+                grid-row: 2/4;
+                -webkit-animation: text-shadow-drop-center 0.6s 1s both;
+                animation: text-shadow-drop-center 0.6s 1s both;
+                }
+        }
+
+        .sectionServicios {
+            div {
+                .titulosUno {
+                    width: 100%;
+                    font-family: 'Kanit', sans-serif;
+                    font-size: 2rem;
+                    text-align: center;
+                    margin-top: 2.5rem;
+                    margin-bottom: 3.0rem;
+                    letter-spacing: 0.5rem;
+                    border-bottom: solid gray;
+                    grid-column: 1/2;
+                    grid-row: 1/2;
+                }
+            }
+
+            .contenedorImagenServicios1 {
+                width: 80%;
+                height: 80%;
+                justify-content: center;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .contenedorImagenServicios2 {
+                width: 80%;
+                height: 80%;
+                justify-content: center;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .contenedorImagenServicios3 {
+                width: 80%;
+                height: 80%;
+                justify-content: center;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}

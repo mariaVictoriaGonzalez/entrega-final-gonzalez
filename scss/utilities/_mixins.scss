@@ -1,0 +1,16 @@
+@mixin botonPrincipal {
+    background-color: $colorResalte;
+    color: $colorNav;
+    padding: 1rem;
+    border-radius: 5rem;
+    border-color: #595260;
+}
+
+@mixin hoverAmarillo {
+    background-color: $colorResalte;
+    color: black;
+}
+
+@mixin hoverGris {
+    background-color: #595260;
+}

@@ -1,0 +1,88 @@
+.nav-wraper {
+    background-color: $colorNav;
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 1.6rem;
+    align-items: center;
+
+    nav {
+        width: 90%;
+        font-size: 2rem;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        background-color: $colorNav;
+        border-radius: 0.4rem;
+
+        .contenedorLogo {
+            height: 10rem;
+            width: 20rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            img {
+                width: 100%;
+                object-fit: contain;
+                padding-left: 3rem;
+            }
+        }
+
+        .menu {
+            display: flex;
+            align-items: center;
+
+            ul {
+                list-style: none;
+                display: flex;
+                gap: 2rem;
+
+                li {
+                    .text-shadow-pop-bottom {
+                        color: white;
+                        list-style: none;
+                        text-decoration: none;
+                        font-family: 'Kanit', sans-serif;
+                        padding: 1rem;
+                    }
+
+                    .text-shadow-pop-bottom:hover {
+                        -webkit-animation: text-shadow-pop-bottom 0.6s both;
+                        animation: text-shadow-pop-bottom 0.6s both;
+                    }
+
+                    .botonHome {
+                        color: white;
+                        list-style: none;
+                        text-decoration: none;
+                        font-family: 'Kanit', sans-serif;
+                        padding: 1rem;
+
+                    }
+
+                    .botonHome:hover {
+                        @include hoverAmarillo
+                    }
+                }
+            }
+        }
+
+        #toggle,
+        nav label {
+
+            display: none;
+
+        }
+
+        label {
+
+            display: none;
+
+        }
+    }
+}
